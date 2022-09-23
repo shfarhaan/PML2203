@@ -13,10 +13,11 @@ def problems_to_be_solved(seed_value, name, no_of_problems, sample):
     print(f"Length of sorted practice list: {len(to_be_solved_list)}")
 
 
-#
 # problems_to_be_solved(100, "Farhaan")
 # problems_to_be_solved(29, "Azwad")
 # problems_to_be_solved(57, "Shuvom")
 # problems_to_be_solved(70, "Samuel")
+
+# Adding number of problems and problems required to be solved
 problems_to_be_solved(20, "Showrin", 281, 50)
 problems_to_be_solved(20, "Showrin", 80, 40)
