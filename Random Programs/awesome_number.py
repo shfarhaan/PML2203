@@ -16,9 +16,9 @@ number_in_a_list = [int(index) for index in str(input_number)]
 print(number_in_a_list)
 print(number_in_a_list[-1])
 print(number_in_a_list[0:-1])
-for i in number_in_a_list:
+# for i in number_in_a_list:
 
-    if list(number_in_a_list[:-1]) < number_in_a_list:
-        print("Awesome Number")
-    else:
-        print("Not an Awesome Number!")
+if list(number_in_a_list[:-1]) < number_in_a_list:
+    print("Awesome Number")
+else:
+    print("Not an Awesome Number!")
