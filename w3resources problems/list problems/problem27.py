@@ -19,7 +19,7 @@ unique_numbers = set(input_list)
 sorted_list = sorted(unique_numbers)
 
 print(f'Your list contains {num_of_inputs} '
-      f'unique numbers and the list is {unique_numbers}')
+      f'unique numbers and the list is {sorted_list}')
 
 # sorted_list = set(sorted(input_list))
 
