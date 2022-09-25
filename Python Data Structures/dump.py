@@ -1,22 +1,20 @@
-import random
+# 42. Write a Python program to find
+# missing and additional values in two lists.
 
+# Sample data : Missing values in second list: b,a,c
+# Additional values in second list: g,h
 
-def problems_to_be_solved(seed_value, name):
-    random.seed(seed_value)
-    practice = range(1, 282)
+no_of_list = int(input("How many list do you want to check? "))
 
-    problem_list = random.sample(practice, k=50)
-    to_be_solved_list = sorted(problem_list)
-    print(f"{name} is going to solve this list: {to_be_solved_list}")
+for i in range(1, no_of_list + 1):
+    elements_in_list = int(input("Enter number of Elements: "))
+    list_of_elements = list(map(str, input("\nEnter the numbers : ")
+                                .strip().split()))[:elements_in_list]
 
-    print(f"Length of practice list: {len(problem_list)}")
-    print(f"Length of sorted practice list: {len(to_be_solved_list)}")
+    print(f"\nList of Items in the list - {list_of_elements}")
 
-
-problems_to_be_solved(100, "Farhaan")
-problems_to_be_solved(29, "Azwad")
-problems_to_be_solved(57, "Shuvom")
-problems_to_be_solved(70, "Samuel")
-problems_to_be_solved(13, "Showrin")
+    for j in list_of_elements[i]:
+        missing_values =
+        list.
 
 
