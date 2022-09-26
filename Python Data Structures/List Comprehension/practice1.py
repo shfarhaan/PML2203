@@ -16,16 +16,27 @@
 #
 # print(c)
 
-# USING REGULAR FOR LOOP
-ele = []
+# # USING REGULAR FOR LOOP
+# ele = []
+#
+# for each_element in range(1,7):
+#     ele.append(each_element ** 2)
+#
+# print(ele)
+#
+# # USING LIST COMPREHENSION
+# ele2 = [each_elem ** 2 for each_elem in range(1,7)]
+#
+# print(ele2)
 
-for each_element in range(1,7):
-    ele.append(each_element ** 2)
+# [36, 25, 16, 9, 4, 1]
 
-print(ele)
+rev_lis = []
+for el in range(6, 0, -1):
+    rev_lis.append(el ** 2)
 
-# USING LIST COMPREHENSION
-ele2 = [each_elem ** 2 for each_elem in range(1,7)]
+print(rev_lis)
 
-print(ele2)
+rev_lis2 = [el1 ** 2 for el1 in range(6, 0, -1)]
 
+print(rev_lis2)
