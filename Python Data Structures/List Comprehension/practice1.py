@@ -41,3 +41,6 @@ rev_lis2 = [el1 ** 2 for el1 in range(6, 0, -1)]
 
 print(rev_lis2)
 
+
+
+
