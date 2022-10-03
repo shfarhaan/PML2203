@@ -19,7 +19,11 @@ def problems_to_be_solved(seed_value, name, no_of_problems, sample):
 # problems_to_be_solved(70, "Samuel")
 
 # Adding number of problems and problems required to be solved
-problems_to_be_solved(5, "Samuel", 281, 50)
-problems_to_be_solved(7, "Shuvom", 281, 55)
-problems_to_be_solved(5, "Samuel", 80, 5)
-problems_to_be_solved(7, "Shuvom", 80, 5)
+# problems_to_be_solved(5, "Samuel", 281, 50)
+# problems_to_be_solved(7, "Shuvom", 281, 55)
+# problems_to_be_solved(5, "Samuel", 80, 5)
+# problems_to_be_solved(7, "Shuvom", 80, 5)
+problems_to_be_solved(20, "Showrin", 281, 50)
+problems_to_be_solved(19, "Kaushik", 281, 50)
+problems_to_be_solved(20, "Showrin", 80, 30)
+problems_to_be_solved(19, "Kaushik", 80, 30)
