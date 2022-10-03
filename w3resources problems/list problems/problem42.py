@@ -6,11 +6,11 @@
 
 elements_in_list1 = int(input("Enter number of Elements in List 1: "))
 lis1 = list(map(str, input("\nEnter the numbers : ")
-                .strip().split()))[:elements_in_list1]
+                .strip().split()))
 
 elements_in_list2 = int(input("Enter number of Elements in List2: "))
 lis2 = list(map(str, input("\nEnter the numbers : ")
-                .strip().split()))[:elements_in_list2]
+                .strip().split(",")))
 
 print(f"\nList of Items in the list 1 - {lis1}\n"
       f"and List of Items in the list 2 - {lis2}\n")
