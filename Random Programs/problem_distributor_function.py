@@ -25,7 +25,6 @@ problems_to_be_solved(5, "Samuel", 80, 5)
 problems_to_be_solved(7, "Shuvom", 80, 5)
 problems_to_be_solved(12, "Azwad", 281, 50)
 problems_to_be_solved(12, "Azwad", 80, 5)
-
 problems_to_be_solved(20, "Showrin", 281, 50)
 problems_to_be_solved(19, "Kaushik", 281, 50)
 
