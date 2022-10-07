@@ -21,10 +21,8 @@ def problems_to_be_solved(seed_value, name, no_of_problems, sample):
 # Adding number of problems and problems required to be solved
 problems_to_be_solved(5, "Samuel", 281, 50)
 problems_to_be_solved(7, "Shuvom", 281, 55)
-
 problems_to_be_solved(5, "Samuel", 80, 5)
 problems_to_be_solved(7, "Shuvom", 80, 5)
-
 problems_to_be_solved(12, "Azwad", 281, 50)
 problems_to_be_solved(12, "Azwad", 80, 5)
 
