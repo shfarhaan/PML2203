@@ -1,25 +1,27 @@
-class Employee:
-    raise_amt = 1.04
+class A:
+    def feature1(self):
+        print("This is feature1")
 
-    def __int__(self, first, last, pay):
-        self.first = first
-        self.last = last
-        self.email = first + '.' + last + '@email.com'
-        self.pay = pay
+    def feature2(self):
+        print("This is feature2")
 
-    def fullname(self):
-        return '{} {}'.format(self.first, self.last)
+class B:
+    def feature3(self):
+        print("This is feature3")
 
-    def apply_raise(self):
-        self.pay = int(self.pay * self.raise_amt)
-
-
-class Developer(Employee):
-    super().__int__()
+    def feature4(self):
+        print("This is feature4")
 
 
-dev1 = Developer('Sazzad', 'Hussain', 50000)
-dev2 = Developer('Alpha', 'Beta', 30000)
+class C(A, B):
+    def feature5(self):
+        print("This is feature5")
 
-print(dev1.email)
-print(dev2.email)
+    def feature6(self):
+        print("This is feature6")
+
+a1 = A()
+b1 = B()
+c1 = C()
+
+
