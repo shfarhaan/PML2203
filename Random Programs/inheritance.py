@@ -2,42 +2,47 @@ class Dada:
     def feature1(self):
         print("This is feature 1")
 
+
+class Nana:
     def feature2(self):
         print("This is feature 2")
 
 
-class Baba(Dada):
-    def feature3(self):
+class Abba:
+    def Boktrita(self):
         print("This is feature 3")
 
-    def feature4(self):
+
+class Amma:
+    def JuktiPurnoAlaap(self):
         print("This is feature 4")
 
 
-class Nana:
-    def feature7(self):
-        print("This is feature 7")
+class Azwad(Abba, Amma):
+    def Debater(self):
+        pass
 
-    def feature8(self):
-        print("This is feature 8")
-
-
-class Amma(Nana):
-    def feature4(self):
-        print("This is feature 4")
-
-    def feature5(self):
-        print("This is feature 5")
-
-
-class Me(Baba, Amma):
-    pass
-
-
-a1 = Baba()
 
 b1 = Amma()
+c1 = Abba()
+a1 = Azwad()
 
-c1 = Me()
-
-print(c1.feature8())
+# class Ammunition:
+#     def type(self):
+#         pass
+#
+# class AssaultRifle(Ammunition):
+#     def range(self):
+#         pass
+#
+# class FreeFire:
+#     def unlimitedammunition(self):
+#         pass
+#
+# class AK47(AssaultRifle,FreeFire):
+#     def rof(self):
+#         pass
+#
+# ak = AK47()
+#
+# ak.
