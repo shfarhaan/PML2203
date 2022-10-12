@@ -1,10 +1,3 @@
-def jog(a, b, c="", d=""):
-    # input(f"Enter value/string for c and d: {c} {d}")
-    return a + b * c * d
-
-
-print(jog(1, 2))
-
-print(jog(1, 2, "1"))
-
-print(jog(1, 2, "1", "2"))
+print(len("Programming"))
+print(len([1, 2, 3, 4, 5]))
+print(len({"Cats": "Meow", "Dogs": "Bhaaoo"}))
