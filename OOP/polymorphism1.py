@@ -1,3 +1,14 @@
-print(len("Programming"))
-print(len([1, 2, 3, 4, 5]))
-print(len({"Cats": "Meow", "Dogs": "Bhaaoo"}))
+class PyCharm:
+    def excute(self):
+        print("Running")
+        print("Compiling")
+
+
+class Laptop:
+    def code(self):
+        ide.execute()
+
+
+ide = PyCharm()
+
+lap1 = Laptop()
