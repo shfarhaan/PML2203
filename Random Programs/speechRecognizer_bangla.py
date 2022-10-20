@@ -9,11 +9,11 @@ while True:
             recognizer.adjust_for_ambient_noise(mic, duration=.02)
             audio = recognizer.listen(mic)
 
-            text = recognizer.recognize_google(audio)
+            text = recognizer.recognize_google(audio, language="bn-IN")
             text = text.lower()
 
             print(f"Recognized: {text}")
-            continue
+            break
     except speech_recognition.UnknownValueError() as e:
 
         recognizer = speech_recognition.Recognizer()
